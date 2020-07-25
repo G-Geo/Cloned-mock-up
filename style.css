@@ -1,0 +1,127 @@
+body {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 34%;
+
+}
+ header {
+     font-size: 3em;
+     font-family: 'Times New Roman', Times, serif;
+     background-color: rgb(92, 207, 202);
+     color: white;
+     grid-row-start: 1;
+     grid-column-start: 1;
+     grid-column-end: 4;
+ }
+ h1 {
+     font-size: 2.8em;
+    display: flex;
+    justify-content: center;
+ }
+ h2 {
+     padding: 140pt;
+     display: flex;
+     justify-content: center;
+ }
+ article {
+     background-color: rgb(32, 31, 31);
+     color: white;
+     padding: 30pt;
+ }
+ .section1 {
+     background-color: rgb(69, 144, 241);
+     padding:10pt;
+     color:transparent;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     margin: 20pt;
+ }
+ .section2 {
+    background-color: rgb(245, 110, 32);
+    color:transparent;
+    padding:10pt;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20pt;
+}
+.section3 {
+    background-color: rgb(36, 230, 204);
+    color:transparent;
+    padding:10pt;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20pt;
+}
+p {
+    display: flex;
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+    body {
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 100%;
+    }
+    header {
+            font-size: 1em;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(91, 147, 199);
+            color: white;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+        }
+    h1 {
+        color: black;
+      font-size: 2em;
+        display: flex;
+        justify-content: center;
+        }
+        h2 {
+            text-align: center;
+            padding: 30pt;
+            font-size: 3em;
+            display: flex;
+            justify-content: center;
+            }
+        article {
+             background-color: rgb(230, 223, 223);
+             color: white;
+             padding: 0pt;
+             padding: 15pt;
+             padding-left: 50pt;
+             padding-right: 50pt;
+        }
+      
+        p {
+            color: black;
+            font-size: 1em;
+            padding-left: 25pt;
+            padding-right: 25pt;
+            }
+        .article1 {
+            grid-row-start: 2;
+        }
+        .article2 {
+            grid-row-start: 3;
+        }
+        .article3 {
+            grid-row-start: 4;
+        }
+        .section1 {
+            padding:3pt
+        }
+        .section2 {
+            padding:3pt
+        }
+        .section3 {
+            padding:3pt
+        }
+        
+        
+        
+}
